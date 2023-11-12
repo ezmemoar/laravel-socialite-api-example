@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .text-primary-style {
+    @apply text-primary hover:text-primary-darker transition-colors duration-150;
+  }
+}
