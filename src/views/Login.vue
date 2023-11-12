@@ -2,7 +2,7 @@
   <div class="w-full h-screen flex items-center justify-center">
     <NCard class="!w-[50%]">
       <div class="flex flex-col gap-3">
-        <NButton type="primary" @click="login('google')" :loading="loading">
+        <NButton type="primary" @click="login('google')">
           Login With Google
         </NButton>
       </div>
